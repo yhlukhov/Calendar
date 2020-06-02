@@ -1,0 +1,73 @@
+@font-face {
+    font-family: HangingLetters;
+    src: url(../Fonts/hanging_letters.ttf);
+}
+
+@font-face {
+    font-family: Meamury;
+    src: url(../Fonts/meamury.ttf);
+}
+
+@font-face {
+    font-family: MonlyLiteLight;
+    src: url(../Fonts/MonlyLiteLight.otf);
+}
+
+@font-face {
+    font-family: OpenSansCondensed;
+    src: url(../Fonts/OpenSansCondensed-Light.ttf);
+}
+
+/* Channels */
+@font-face {
+    font-family: Pacifico;
+    src: url(../Fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: AmaticSC;
+    src: url(../Fonts/AmaticSC-Bold.ttf);
+}
+@font-face {
+    font-family: BadScript;
+    src: url(../Fonts/BadScript-Regular.ttf);
+}
+@font-face {
+    font-family: KosugiMaru;
+    src: url(../Fonts/KosugiMaru-Regular.ttf);
+}
+@font-face {
+    font-family: MarckScript;
+    src: url(../Fonts/MarckScript-Regular.ttf);
+}
+@font-face {
+    font-family: Neucha;
+    src: url(../Fonts/Neucha-Regular.ttf);
+}
+@font-face {
+    font-family: Armatura;
+    src: url(../Fonts/Armatura.otf);
+}
+@font-face {
+    font-family: RussianSuvenir;
+    src: url(../Fonts/RussianSuvenir.ttf);
+}
+@font-face {
+    font-family: NipponCyr;
+    src: url(../Fonts/NipponCyr.otf);
+}
+@font-face {
+    font-family: URWTaurusD;
+    src: url(../Fonts/URWTaurusD.ttf);
+}
+@font-face {
+    font-family: IsadoraC;
+    src: url(../Fonts/IsadoraC.ttf);
+}
+@font-face {
+    font-family: OksFree;
+    src: url(../Fonts/OksFree.otf);
+}
+@font-face {
+    font-family: EchoRevival;
+    src: url(../Fonts/EchoRevival.otf);
+}

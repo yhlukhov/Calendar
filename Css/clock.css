@@ -1,0 +1,162 @@
+.clock {
+    font-family: OpenSansCondensed;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.clock-cal {
+    color: rgb(35, 192, 21);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-right: 35px; */
+}
+
+.clock-loc {
+    text-align: end;
+    color: rgb(255, 92, 51);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-left: 35px; */
+}
+
+.clock-dif{
+    width: 70px;
+    color: rgb(11, 159, 216);
+}
+
+.timeCalendar{
+    border: 1px solid rgb(35, 192, 21);
+    border-radius: 4px;
+    margin: 1.5px;
+}
+.timeLocal {
+    border: 1px solid rgb(255, 92, 51);
+    border-radius: 4px;
+    margin: 1.5px;
+}
+
+.calendarClock{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgba(35, 192, 21, 0.3);
+    background-image: url(../Images/clock1.png);
+    background-size: contain;
+    box-shadow: -2px 2px 3px rgba(35, 192, 21, 0.4);
+    border-radius: 50%;
+    position: relative;
+    z-index: 0;
+}
+.localClock{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgba(255, 92, 51, 0.3);
+    background-image: url(../Images/clock2.png);
+    background-size: contain;
+    box-shadow: -2px 2px 3px rgba(255, 92, 51, 0.4);
+    border-radius: 50%;
+    position: relative;
+    z-index: 0;
+}
+
+.hoursLocal, .hoursCalendar {
+    width: 3px;
+    height: 28px;
+    background-color: teal;
+    box-shadow: -0.1px 0.1px 1px teal;
+    position: absolute;
+    top: 22px;
+    left: 48.5px;
+    transform-origin: bottom;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    z-index: 1;
+}
+
+.minsLocal, .minsCalendar {
+    width: 2.4px;
+    height: 40px;
+    background-color: seagreen;
+    box-shadow: -0.1px 0.1px 0.8px seagreen;
+    position: absolute;
+    top: 10px;
+    left: 48.8px;
+    transform-origin: bottom;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    z-index: 2;
+}
+
+.secsLocal, .secsCalendar {
+    width: 1.5px;
+    height: 50px;
+    position: absolute;
+    background-color: olivedrab;
+    box-shadow: -0.1px 0.1px 0.6px olivedrab;
+    top: 0px;
+    left: 49.25px;
+    transform-origin: bottom;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    z-index: 3;
+}
+
+.center {
+    width: 6px;
+    height: 6px;
+    background-color: rgb(148, 50, 50);
+    box-shadow: -0.1px 0.1px 2px rgb(148, 50, 50);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 4;
+    top: 47px;
+    left: 47px;
+}
+
+
+/* Mobile View */
+@media (max-width:480px) {
+    .calendarClock{
+        width: 80px;
+        height: 80px;
+    }
+    .localClock{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .hoursLocal, .hoursCalendar {
+        width: 2px;
+        height: 24px;
+        top: 16px;
+        left: 39px;
+        box-shadow: -1px 1px 1.5px teal;
+    }
+    
+    .minsLocal, .minsCalendar {
+        width: 1.6px;
+        height: 32px;
+        top: 8px;
+        left: 39.2px;
+        box-shadow: -1px 1px 1.2px seagreen;
+    }
+    
+    .secsLocal, .secsCalendar {
+        width: 1px;
+        height: 40px;
+        top: 0px;
+        left: 39.5px;
+        box-shadow: -1px 1px 0.9px olivedrab;
+    }
+    
+    .center {
+        width: 3px;
+        height: 3px;
+        top: 38.5px;
+        left: 38.5px;
+        box-shadow: -1px 1px 1.5px rgb(148, 50, 50);
+    }
+}
